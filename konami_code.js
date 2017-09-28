@@ -3,7 +3,7 @@ let index = 0;
 
 function init() {
   // Write your JavaScript code inside the init() function
-  const myBody = document.getElementsBYTagName('body')
+  const myBody = document.getElementsByTagName('body')
 
   myBody.addEventListener('keydown', onKeyDownHandler)
 }
